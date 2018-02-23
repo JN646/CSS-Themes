@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: #eee;
+}
+
+#page {
+	background-color: #fff;
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: solid 1px;
+	padding: 25px;
+}
+
+.site-branding {
+	border: solid 1px;
+	padding: 10px;
+	margin-bottom: 10px
+}
+
+#secondary {
+	border: solid 1px green;
+	padding: 5px;
+	width: 30%;
+	display: block;
+	float: left;
+}
+
+#primary {
+	width: 70%;
+	display: block;
+	float: left;
+}
+
+#site-navigation {
+	border: solid 1px red;
+	padding: 2px;
+	margin-bottom: 10px;
+}
+
+.post {
+	border: solid 1px blue;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.entry-title {
+	margin: 2px;
+}
+
+.entry-meta, .entry-footer {
+	font-size: 75%;
+}
+
+ul, ol {
+	margin: inherit;
+}
+
+.widget {
+	font-size: 80%;
+	border: 1px solid;
+	margin-top: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.search-field {
+	width: 100%;
+}
+
+.site-info {
+	font-size: 75%;
+}
+
+.page_item {
+	background-color: pink;
+	padding: 5px;
+}
