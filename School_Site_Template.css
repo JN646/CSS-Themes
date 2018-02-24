@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+* {
+	font-family: 'Indie Flower', cursive;
+}
+
+body{
+	background-color: #eee;
+}
+
+#page{
+	width: 60%;  /* width of page*/
+	background-color: white;
+	margin: 0 auto;
+	padding: 10px;
+	margin-top: 20px;
+	border: solid 1px red;
+	border-radius: 5px;
+
+}
+
+.site-content {
+	border: solid 1px orange;
+}
+
+.main-navigation {
+	border: solid 1px green;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.site-branding {
+	border: solid 1px blue;
+	margin-bottom: 3px;
+}
+
+.site-title {
+	border: solid 1px purple;
+	width: 230px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.site-description {
+	border: solid 1px black;
+	width: 270px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom:10px;
+
+}
+
+#primary {
+	width:70%;
+	border: solid 1px red;
+	display: block;
+	float: left;
+
+}
+
+#secondary {
+	width: 30%;
+	border: solid 1px green;
+	display: block;
+	float: right;
+
+}
+
+.search-field {
+	margin-left: 1px;
+	margin-right: 1px;
+	width: 100%;
+
+}
+
+.menu-item {
+	background-color: red;
+	margin-right: 3px;
+	margin-left: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+	transition: 1s;
+}
+
+.menu-item:hover, a.menu-item:hover {
+	background-color: green;
+	color: #fff;
+	border-radius: 5px;
+	transition: 1s;
+}
+
+#secondary ul, ol {
+	margin-left: inherit;
+}
