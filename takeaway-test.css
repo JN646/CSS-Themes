@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+* {
+	font-family: 'Slabo 27px', serif;
+}
+
+body {
+	background-color: #931818;
+}
+
+#page {
+	width: 60%;
+	background-color: white;
+	margin: 0 auto;
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.site-content {
+
+}
+
+.main-navigation {
+	background-color: #feffbd;
+	border: solid 1px #F7CA18;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.site-branding {
+
+}
+
+.site-title {
+	width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.site-description {
+	width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.menu-item {
+	margin-right: 3px;
+	margin-left: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.site-content {
+	padding: 5px;
+}
+
+.menu-item:hover, a.menu-item:hover {
+	background-color: orange;
+	transition: 1s;
+	border-radius: 5px;
+}
+
+#post-5 table tbody, td, th {
+	border: solid 1px black;
+	text-align: center;
+	padding: 5px;
+}
+
+#post-5 table th {
+	background-color: lightgray;
+}
