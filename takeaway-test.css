@@ -8,8 +8,12 @@ body {
 	background-color: #931818;
 }
 
+img {
+	border-radius: 5px;
+}
+
 #page {
-	width: 60%;
+	width: 980px;
 	background-color: white;
 	margin: 0 auto;
 	padding: 10px;
@@ -31,7 +35,20 @@ body {
 }
 
 .site-branding {
+	width: 300px;
+	display: block;
+	float: left;
+}
 
+.site-contact {
+	margin-top: 50px;
+	margin-right: 50px;
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 200px;
+	display: block;
+	float: right;
+	text-align: center;
 }
 
 .site-title {
@@ -53,6 +70,7 @@ body {
 	margin-left: 3px;
 	padding-right: 5px;
 	padding-left: 5px;
+	font-size: 20px;
 }
 
 .site-content {
@@ -73,4 +91,25 @@ body {
 
 #post-5 table th {
 	background-color: lightgray;
+}
+
+.comments-link {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.entry-meta {
+	font-size: 80%;
+}
+
+/* Mozilla based browsers */
+::-moz-selection {
+       background-color: #931818;
+       color: #fff;
+}
+
+/* Works in Safari */
+::selection {
+       background-color: #931818;
+       color: #fff;
 }
