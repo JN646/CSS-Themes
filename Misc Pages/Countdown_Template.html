@@ -4,11 +4,21 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	</head>
 	<body>
-	<div id="counterDiv">
-		<!-- Display the countdown timer in an element -->
-		<p id="demo"></p>
+	<div class="row">
+		<div id="counterDiv" class="">
+			<!-- Display the countdown timer in an element -->
+			<p id="demo" class="display-4"></p>
+		</div>
 	</div>
 
+	<style>
+	#counterDiv {
+		margin: 0 auto;
+		margin-top: 150px;
+		width: 500px;
+	}
+	</style>
+	
 		<script>
 		// Set the date we're counting down to
 		var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
