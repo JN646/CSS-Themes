@@ -1,115 +1,114 @@
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
-
 * {
-	font-family: 'Slabo 27px', serif;
+  font-family: 'Slabo 27px', serif;
 }
 
 body {
-	background-color: #931818;
+  background-color: #931818;
 }
 
 img {
-	border-radius: 5px;
+  border-radius: 5px;
 }
 
 #page {
-	width: 980px;
-	background-color: white;
-	margin: 0 auto;
-	padding: 10px;
-	margin-top: 10px;
-	border-radius: 5px;
+  width: 980px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
 }
 
-.site-content {
-
-}
+.site-content {}
 
 .main-navigation {
-	background-color: #feffbd;
-	border: solid 1px #F7CA18;
-	border-radius: 5px;
-	padding: 5px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+  background-color: #feffbd;
+  border: solid 1px #F7CA18;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .site-branding {
-	width: 300px;
-	display: block;
-	float: left;
+  width: 300px;
+  display: block;
+  float: left;
 }
 
 .site-contact {
-	margin-top: 50px;
-	margin-right: 50px;
-	border: 1px solid black;
-	border-radius: 5px;
-	width: 200px;
-	display: block;
-	float: right;
-	text-align: center;
+  margin-top: 50px;
+  margin-right: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 200px;
+  display: block;
+  float: right;
+  text-align: center;
 }
 
 .site-title {
-	width: 300px;
-	text-align: center;
-	margin: 0 auto;
-	margin-top: 10px;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
 .site-description {
-	width: 300px;
-	text-align: center;
-	margin: 0 auto;
-	margin-bottom: 10px;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .menu-item {
-	margin-right: 3px;
-	margin-left: 3px;
-	padding-right: 5px;
-	padding-left: 5px;
-	font-size: 20px;
+  margin-right: 3px;
+  margin-left: 3px;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 20px;
 }
 
 .site-content {
-	padding: 5px;
+  padding: 5px;
 }
 
 .menu-item:hover, a.menu-item:hover {
-	background-color: orange;
-	transition: 1s;
-	border-radius: 5px;
+  background-color: orange;
+  transition: 1s;
+  border-radius: 5px;
 }
 
 #post-5 table tbody, td, th {
-	border: solid 1px black;
-	text-align: center;
-	padding: 5px;
+  border: solid 1px black;
+  text-align: center;
+  padding: 5px;
 }
 
 #post-5 table th {
-	background-color: lightgray;
+  background-color: lightgray;
 }
 
 .comments-link {
-	padding-left: 5px;
-	padding-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .entry-meta {
-	font-size: 80%;
+  font-size: 80%;
 }
 
 /* Mozilla based browsers */
+
 ::-moz-selection {
-       background-color: #931818;
-       color: #fff;
+  background-color: #931818;
+  color: #fff;
 }
 
 /* Works in Safari */
+
 ::selection {
-       background-color: #931818;
-       color: #fff;
+  background-color: #931818;
+  color: #fff;
 }
